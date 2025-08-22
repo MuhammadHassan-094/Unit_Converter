@@ -13,40 +13,76 @@ public class WeightConversion {
     }
 
     // --- kg <-> milligram ---
-    void kgToMilligram(double kg) { System.out.println(kg + " kg = " + (kg * 1_000_000) + " mg"); }
-    void milligramToKg(double mg) { System.out.println(mg + " mg = " + (mg / 1_000_000.0) + " kg"); }
+    void kgToMilligram(double kg) { 
+        System.out.println(kg + " kg = " + (kg * 1_000_000) + " mg"); 
+    }
+    void milligramToKg(double mg) { 
+        System.out.println(mg + " mg = " + (mg / 1_000_000.0) + " kg"); 
+    }
 
     // --- kg <-> microgram ---
-    void kgToMicrogram(double kg) { System.out.println(kg + " kg = " + (kg * 1_000_000_000L) + " µg"); }
-    void microgramToKg(double ug) { System.out.println(ug + " µg = " + (ug / 1_000_000_000.0) + " kg"); }
+    void kgToMicrogram(double kg) { 
+        System.out.println(kg + " kg = " + (kg * 1_000_000_000L) + " µg"); 
+    }
+    void microgramToKg(double ug) { 
+        System.out.println(ug + " µg = " + (ug / 1_000_000_000.0) + " kg"); 
+    }
 
     // --- kg <-> pound ---
-    void kgToPound(double kg) { System.out.println(kg + " kg = " + (kg * 2.20462) + " lb"); }
-    void poundToKg(double lb) { System.out.println(lb + " lb = " + (lb / 2.20462) + " kg"); }
+    void kgToPound(double kg) { 
+        System.out.println(kg + " kg = " + (kg * 2.20462) + " lb"); 
+    }
+    void poundToKg(double lb) { 
+        System.out.println(lb + " lb = " + (lb / 2.20462) + " kg"); 
+    }
 
     // --- kg <-> ounce ---
-    void kgToOunce(double kg) { System.out.println(kg + " kg = " + (kg * 35.274) + " oz"); }
-    void ounceToKg(double oz) { System.out.println(oz + " oz = " + (oz / 35.274) + " kg"); }
+    void kgToOunce(double kg) { 
+        System.out.println(kg + " kg = " + (kg * 35.274) + " oz"); 
+    }
+    void ounceToKg(double oz) { 
+        System.out.println(oz + " oz = " + (oz / 35.274) + " kg"); 
+    }
 
     // --- kg <-> stone ---
-    void kgToStone(double kg) { System.out.println(kg + " kg = " + (kg / 6.35029) + " st"); }
-    void stoneToKg(double st) { System.out.println(st + " st = " + (st * 6.35029) + " kg"); }
+    void kgToStone(double kg) { 
+        System.out.println(kg + " kg = " + (kg / 6.35029) + " st"); 
+    }
+    void stoneToKg(double st) { 
+        System.out.println(st + " st = " + (st * 6.35029) + " kg"); 
+    }
 
     // --- kg <-> carat (1 ct = 0.2 g = 0.0002 kg) ---
-    void kgToCarat(double kg) { System.out.println(kg + " kg = " + (kg / 0.0002) + " ct"); }
-    void caratToKg(double ct) { System.out.println(ct + " ct = " + (ct * 0.0002) + " kg"); }
+    void kgToCarat(double kg) { 
+        System.out.println(kg + " kg = " + (kg / 0.0002) + " ct"); 
+    }
+    void caratToKg(double ct) { 
+        System.out.println(ct + " ct = " + (ct * 0.0002) + " kg"); 
+    }
 
     // --- kg <-> tola (1 tola ≈ 11.6638038 g = 0.0116638038 kg) ---
-    void kgToTola(double kg) { System.out.println(kg + " kg = " + (kg / 0.0116638038) + " tola"); }
-    void tolaToKg(double tola) { System.out.println(tola + " tola = " + (tola * 0.0116638038) + " kg"); }
+    void kgToTola(double kg) { 
+        System.out.println(kg + " kg = " + (kg / 0.0116638038) + " tola"); 
+    }
+    void tolaToKg(double tola) { 
+        System.out.println(tola + " tola = " + (tola * 0.0116638038) + " kg"); 
+    }
 
     // --- kg <-> quintal (1 quintal = 100 kg) ---
-    void kgToQuintal(double kg) { System.out.println(kg + " kg = " + (kg / 100.0) + " quintal"); }
-    void quintalToKg(double q) { System.out.println(q + " quintal = " + (q * 100.0) + " kg"); }
+    void kgToQuintal(double kg) { 
+        System.out.println(kg + " kg = " + (kg / 100.0) + " quintal"); 
+    }
+    void quintalToKg(double q) { 
+        System.out.println(q + " quintal = " + (q * 100.0) + " kg"); 
+    }
 
     // --- kg <-> metric ton (1 ton = 1000 kg) ---
-    void kgToTon(double kg) { System.out.println(kg + " kg = " + (kg / 1000.0) + " ton"); }
-    void tonToKg(double ton) { System.out.println(ton + " ton = " + (ton * 1000.0) + " kg"); }
+    void kgToTon(double kg) { 
+        System.out.println(kg + " kg = " + (kg / 1000.0) + " ton"); 
+    }
+    void tonToKg(double ton) { 
+        System.out.println(ton + " ton = " + (ton * 1000.0) + " kg"); 
+    }
 
     public void showWeightMenu() {
         Scanner sc = new Scanner(System.in);
