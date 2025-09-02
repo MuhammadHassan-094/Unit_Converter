@@ -1,62 +1,43 @@
-# Unit Converter (Java CLI)
+# Unit Converter
 
-A simple and modular **Unit Converter** built in Java.  
-This command-line tool provides conversion functionality across **Length**, **Weight**, and **Temperature** units.  
-Designed with clean **Object-Oriented Programming (OOP)** principles, the project is easy to extend and understand.
+A **Unit Converter** application developed to perform conversions between various units such as length, weight, and temperature. 
+The project provides a simple interface and ensures accurate results, making it useful for quick and efficient calculations.  
 
----
-
-## ✨ Features
-
-- 🌡 **Temperature Conversion** (Celsius ↔ Fahrenheit ↔ Kelvin)  
-- 📏 **Length Conversion** (meters, kilometers, centimeters, millimeters, feet, etc.)  
-- ⚖️ **Weight Conversion** (kilograms, grams, pounds, etc.)  
-- 🖥 **Menu-driven CLI** with straightforward navigation  
-- 🧩 **OOP-based structure** for maintainability and scalability  
+This project was created as part of my **Second Semester coursework**.  
 
 ---
 
-## 🛠 Design Overview
-
-- **Main Conversion Flow**  
-  - Provides the program menu and handles user interaction.  
-  - Delegates tasks to the correct conversion module.  
-
-- **Length Conversion**  
-  - Supports conversions between metric and imperial units.  
-
-- **Weight Conversion**  
-  - Includes conversions between kilograms, grams, and pounds.  
-
-- **Temperature Conversion**  
-  - Converts seamlessly between Celsius, Fahrenheit, and Kelvin.  
+## Features
+- Convert between multiple unit types:
+  - Length (e.g., meters ↔ kilometers)  
+  - Weight (e.g., grams ↔ kilograms)  
+  - Temperature (e.g., Celsius ↔ Fahrenheit)  
+- User-friendly design and easy navigation  
+- Accurate and efficient calculations  
 
 ---
 
-## 💡 Future Improvements
+## Designed Overview
+The Unit Converter was designed with a **modular approach** to ensure scalability and maintainability.  
 
-- Add new categories (Time, Area, Speed, Data units, Currency).  
-- Improve **input validation** and error handling.  
-- Introduce a **graphical interface** (JavaFX/Swing).  
-- Implement **unit tests** for conversion formulas.  
+- **Input Section**: Users can enter the value to be converted.  
+- **Unit Selection**: Dropdown or selection mechanism to choose input and output units.  
+- **Conversion Logic**: Backend logic handles precise calculations for different unit categories.  
+- **Output Display**: Results are displayed instantly in a clear and readable format.  
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-- Fork the repo  
-- Add new converters or enhance existing ones  
-- Submit a pull request 🚀  
+This design ensures that additional unit categories can be integrated in future updates without disrupting the existing structure.  
 
 ---
 
-## 📜 License
-
-_No license has been added yet._  
-For clarity and safe reuse, consider adding an open-source license like **MIT** or **Apache 2.0**.  
+## Technologies Used
+- **Programming Language**: Java  
+- **IDE**: IntelliJ IDEA  
 
 ---
 
-### 🌟 Show some love
-If this project helped you, consider giving it a ⭐ on GitHub!
+## Future Improvements
+- Integration of additional unit categories (e.g., time, speed, area).  
+- Improved graphical user interface.  
+- Support for real-time conversions and enhanced usability.  
+
+---
